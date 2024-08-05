@@ -1,9 +1,9 @@
-function Home() {
+import React from 'react'
+
+const Home = () => {
   return (
-    <div className="flex flex-1 justify-center items-center text-white text-3xl">
-      Home
-    </div>
-  );
+    <div className='text-white flex justify-center items-centerT text-3xl h-full'>Home</div>
+  )
 }
 
-export default Home;
+export default Home
